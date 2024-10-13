@@ -7,7 +7,7 @@ using var connection = factory.CreateConnection();
 using var channel = connection.CreateModel();
 
 channel.QueueDeclare(queue: "hello",
-                     durable: true,
+                     durable: false,
                      exclusive: false,
                      autoDelete: false,
                      arguments: null);
