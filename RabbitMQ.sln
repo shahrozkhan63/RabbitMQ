@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiveLogsTopic", "Receive
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmitLogTopic", "EmitLogTopic\EmitLogTopic.csproj", "{FBC2714C-A9DD-4EE4-8FB6-EA425C02F18E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublisherConfirm", "PublisherConfirm\PublisherConfirm.csproj", "{4C25441E-32A8-473A-9EB5-5AA461310D0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumerConfirm", "ConsumerConfirm\ConsumerConfirm.csproj", "{38E42740-4259-4424-8F71-F4D5D7175648}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{FBC2714C-A9DD-4EE4-8FB6-EA425C02F18E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBC2714C-A9DD-4EE4-8FB6-EA425C02F18E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBC2714C-A9DD-4EE4-8FB6-EA425C02F18E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C25441E-32A8-473A-9EB5-5AA461310D0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C25441E-32A8-473A-9EB5-5AA461310D0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C25441E-32A8-473A-9EB5-5AA461310D0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C25441E-32A8-473A-9EB5-5AA461310D0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38E42740-4259-4424-8F71-F4D5D7175648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38E42740-4259-4424-8F71-F4D5D7175648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38E42740-4259-4424-8F71-F4D5D7175648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38E42740-4259-4424-8F71-F4D5D7175648}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
